@@ -15,591 +15,11 @@
     <preference name='ui.shelf.height' value='26' />
   </preferences>
   <datasources>
-    <datasource caption='drugs_pct_changes_monthly' inline='true' name='federated.0da2t4x1uea2n812vmioa0lws7m3' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='drugs_pct_changes_monthly' name='textscan.0ga3ha10llorfl135ty6w06qhobo'>
-            <connection class='textscan' directory='/Users/paul/Documents/Nephron/CBS_Nephron/Data' filename='drugs_pct_changes_monthly.csv' password='' server='' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
-          <columns>
-            <column datatype='string' name='Pivot Field Names' />
-            <column datatype='real' name='Pivot Field Values' />
-          </columns>
-          <tag name='Pivot Field Names'>
-            <value name='[2017 02]' />
-            <value name='[2017 03]' />
-            <value name='[2017 04]' />
-            <value name='[2017 05]' />
-            <value name='[2017 06]' />
-            <value name='[2017 07]' />
-            <value name='[2017 08]' />
-            <value name='[2017 09]' />
-            <value name='[2017 10]' />
-            <value name='[2017 11]' />
-            <value name='[2017 12]' />
-            <value name='[2018 01]' />
-            <value name='[2018 02]' />
-            <value name='[2018 03]' />
-            <value name='[2018 04]' />
-            <value name='[2018 05]' />
-            <value name='[2018 06]' />
-            <value name='[2018 07]' />
-            <value name='[2018 08]' />
-            <value name='[2018 09]' />
-            <value name='[2018 10]' />
-            <value name='[2018 11]' />
-            <value name='[2018 12]' />
-            <value name='[2019 01]' />
-            <value name='[2019 02]' />
-            <value name='[2019 03]' />
-            <value name='[2019 04]' />
-            <value name='[2019 05]' />
-            <value name='[2019 06]' />
-            <value name='[2019 07]' />
-            <value name='[2019 08]' />
-            <value name='[2019 09]' />
-            <value name='[2019 10]' />
-            <value name='[2019 11]' />
-            <value name='[2019 12]' />
-            <value name='[2020 01]' />
-            <value name='[2020 02]' />
-            <value name='[2020 03]' />
-            <value name='[2020 04]' />
-            <value name='[2020 05]' />
-            <value name='[2020 06]' />
-            <value name='[2020 07]' />
-          </tag>
-          <groups>
-            <group name='Pivot Field Values'>
-              <field name='[drugs_pct_changes_monthly.csv].[2017_02]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_03]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_04]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_05]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_06]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_07]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_08]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_09]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_10]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_11]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_12]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_01]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_02]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_03]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_04]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_05]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_06]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_07]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_08]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_09]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_10]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_11]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_12]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_01]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_02]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_03]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_04]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_05]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_06]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_07]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_08]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_09]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_10]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_11]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_12]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2020_01]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2020_02]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2020_03]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2020_04]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2020_05]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2020_06]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2020_07]' />
-            </group>
-          </groups>
-          <relation connection='textscan.0ga3ha10llorfl135ty6w06qhobo' name='drugs_pct_changes_monthly.csv' table='[drugs_pct_changes_monthly#csv]' type='table'>
-            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-              <column datatype='integer' name='NDC' ordinal='0' />
-              <column datatype='string' name='Product' ordinal='1' />
-              <column datatype='string' name='Major Class' ordinal='2' />
-              <column datatype='string' name='Acute/Chronic' ordinal='3' />
-              <column datatype='string' name='Prod Form' ordinal='4' />
-              <column datatype='real' name='2017_02' ordinal='5' />
-              <column datatype='real' name='2017_03' ordinal='6' />
-              <column datatype='real' name='2017_04' ordinal='7' />
-              <column datatype='real' name='2017_05' ordinal='8' />
-              <column datatype='real' name='2017_06' ordinal='9' />
-              <column datatype='real' name='2017_07' ordinal='10' />
-              <column datatype='real' name='2017_08' ordinal='11' />
-              <column datatype='real' name='2017_09' ordinal='12' />
-              <column datatype='real' name='2017_10' ordinal='13' />
-              <column datatype='real' name='2017_11' ordinal='14' />
-              <column datatype='real' name='2017_12' ordinal='15' />
-              <column datatype='real' name='2018_01' ordinal='16' />
-              <column datatype='real' name='2018_02' ordinal='17' />
-              <column datatype='real' name='2018_03' ordinal='18' />
-              <column datatype='real' name='2018_04' ordinal='19' />
-              <column datatype='real' name='2018_05' ordinal='20' />
-              <column datatype='real' name='2018_06' ordinal='21' />
-              <column datatype='real' name='2018_07' ordinal='22' />
-              <column datatype='real' name='2018_08' ordinal='23' />
-              <column datatype='real' name='2018_09' ordinal='24' />
-              <column datatype='real' name='2018_10' ordinal='25' />
-              <column datatype='real' name='2018_11' ordinal='26' />
-              <column datatype='real' name='2018_12' ordinal='27' />
-              <column datatype='real' name='2019_01' ordinal='28' />
-              <column datatype='real' name='2019_02' ordinal='29' />
-              <column datatype='real' name='2019_03' ordinal='30' />
-              <column datatype='real' name='2019_04' ordinal='31' />
-              <column datatype='real' name='2019_05' ordinal='32' />
-              <column datatype='real' name='2019_06' ordinal='33' />
-              <column datatype='real' name='2019_07' ordinal='34' />
-              <column datatype='real' name='2019_08' ordinal='35' />
-              <column datatype='real' name='2019_09' ordinal='36' />
-              <column datatype='real' name='2019_10' ordinal='37' />
-              <column datatype='real' name='2019_11' ordinal='38' />
-              <column datatype='real' name='2019_12' ordinal='39' />
-              <column datatype='real' name='2020_01' ordinal='40' />
-              <column datatype='real' name='2020_02' ordinal='41' />
-              <column datatype='real' name='2020_03' ordinal='42' />
-              <column datatype='real' name='2020_04' ordinal='43' />
-              <column datatype='real' name='2020_05' ordinal='44' />
-              <column datatype='real' name='2020_06' ordinal='45' />
-              <column datatype='real' name='2020_07' ordinal='46' />
-            </columns>
-          </relation>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
-          <columns>
-            <column datatype='string' name='Pivot Field Names' />
-            <column datatype='real' name='Pivot Field Values' />
-          </columns>
-          <tag name='Pivot Field Names'>
-            <value name='[2017 02]' />
-            <value name='[2017 03]' />
-            <value name='[2017 04]' />
-            <value name='[2017 05]' />
-            <value name='[2017 06]' />
-            <value name='[2017 07]' />
-            <value name='[2017 08]' />
-            <value name='[2017 09]' />
-            <value name='[2017 10]' />
-            <value name='[2017 11]' />
-            <value name='[2017 12]' />
-            <value name='[2018 01]' />
-            <value name='[2018 02]' />
-            <value name='[2018 03]' />
-            <value name='[2018 04]' />
-            <value name='[2018 05]' />
-            <value name='[2018 06]' />
-            <value name='[2018 07]' />
-            <value name='[2018 08]' />
-            <value name='[2018 09]' />
-            <value name='[2018 10]' />
-            <value name='[2018 11]' />
-            <value name='[2018 12]' />
-            <value name='[2019 01]' />
-            <value name='[2019 02]' />
-            <value name='[2019 03]' />
-            <value name='[2019 04]' />
-            <value name='[2019 05]' />
-            <value name='[2019 06]' />
-            <value name='[2019 07]' />
-            <value name='[2019 08]' />
-            <value name='[2019 09]' />
-            <value name='[2019 10]' />
-            <value name='[2019 11]' />
-            <value name='[2019 12]' />
-            <value name='[2020 01]' />
-            <value name='[2020 02]' />
-            <value name='[2020 03]' />
-            <value name='[2020 04]' />
-            <value name='[2020 05]' />
-            <value name='[2020 06]' />
-            <value name='[2020 07]' />
-          </tag>
-          <groups>
-            <group name='Pivot Field Values'>
-              <field name='[drugs_pct_changes_monthly.csv].[2017_02]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_03]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_04]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_05]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_06]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_07]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_08]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_09]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_10]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_11]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2017_12]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_01]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_02]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_03]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_04]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_05]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_06]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_07]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_08]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_09]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_10]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_11]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2018_12]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_01]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_02]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_03]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_04]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_05]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_06]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_07]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_08]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_09]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_10]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_11]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2019_12]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2020_01]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2020_02]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2020_03]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2020_04]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2020_05]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2020_06]' />
-              <field name='[drugs_pct_changes_monthly.csv].[2020_07]' />
-            </group>
-          </groups>
-          <relation connection='textscan.0ga3ha10llorfl135ty6w06qhobo' name='drugs_pct_changes_monthly.csv' table='[drugs_pct_changes_monthly#csv]' type='table'>
-            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-              <column datatype='integer' name='NDC' ordinal='0' />
-              <column datatype='string' name='Product' ordinal='1' />
-              <column datatype='string' name='Major Class' ordinal='2' />
-              <column datatype='string' name='Acute/Chronic' ordinal='3' />
-              <column datatype='string' name='Prod Form' ordinal='4' />
-              <column datatype='real' name='2017_02' ordinal='5' />
-              <column datatype='real' name='2017_03' ordinal='6' />
-              <column datatype='real' name='2017_04' ordinal='7' />
-              <column datatype='real' name='2017_05' ordinal='8' />
-              <column datatype='real' name='2017_06' ordinal='9' />
-              <column datatype='real' name='2017_07' ordinal='10' />
-              <column datatype='real' name='2017_08' ordinal='11' />
-              <column datatype='real' name='2017_09' ordinal='12' />
-              <column datatype='real' name='2017_10' ordinal='13' />
-              <column datatype='real' name='2017_11' ordinal='14' />
-              <column datatype='real' name='2017_12' ordinal='15' />
-              <column datatype='real' name='2018_01' ordinal='16' />
-              <column datatype='real' name='2018_02' ordinal='17' />
-              <column datatype='real' name='2018_03' ordinal='18' />
-              <column datatype='real' name='2018_04' ordinal='19' />
-              <column datatype='real' name='2018_05' ordinal='20' />
-              <column datatype='real' name='2018_06' ordinal='21' />
-              <column datatype='real' name='2018_07' ordinal='22' />
-              <column datatype='real' name='2018_08' ordinal='23' />
-              <column datatype='real' name='2018_09' ordinal='24' />
-              <column datatype='real' name='2018_10' ordinal='25' />
-              <column datatype='real' name='2018_11' ordinal='26' />
-              <column datatype='real' name='2018_12' ordinal='27' />
-              <column datatype='real' name='2019_01' ordinal='28' />
-              <column datatype='real' name='2019_02' ordinal='29' />
-              <column datatype='real' name='2019_03' ordinal='30' />
-              <column datatype='real' name='2019_04' ordinal='31' />
-              <column datatype='real' name='2019_05' ordinal='32' />
-              <column datatype='real' name='2019_06' ordinal='33' />
-              <column datatype='real' name='2019_07' ordinal='34' />
-              <column datatype='real' name='2019_08' ordinal='35' />
-              <column datatype='real' name='2019_09' ordinal='36' />
-              <column datatype='real' name='2019_10' ordinal='37' />
-              <column datatype='real' name='2019_11' ordinal='38' />
-              <column datatype='real' name='2019_12' ordinal='39' />
-              <column datatype='real' name='2020_01' ordinal='40' />
-              <column datatype='real' name='2020_02' ordinal='41' />
-              <column datatype='real' name='2020_03' ordinal='42' />
-              <column datatype='real' name='2020_04' ordinal='43' />
-              <column datatype='real' name='2020_05' ordinal='44' />
-              <column datatype='real' name='2020_06' ordinal='45' />
-              <column datatype='real' name='2020_07' ordinal='46' />
-            </columns>
-          </relation>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[drugs_pct_changes_monthly.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>NDC</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[NDC]</local-name>
-            <parent-name>[drugs_pct_changes_monthly.csv]</parent-name>
-            <remote-alias>NDC</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Product</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Product]</local-name>
-            <parent-name>[drugs_pct_changes_monthly.csv]</parent-name>
-            <remote-alias>Product</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Major Class</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Major Class]</local-name>
-            <parent-name>[drugs_pct_changes_monthly.csv]</parent-name>
-            <remote-alias>Major Class</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Acute/Chronic</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Acute/Chronic]</local-name>
-            <parent-name>[drugs_pct_changes_monthly.csv]</parent-name>
-            <remote-alias>Acute/Chronic</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Prod Form</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Prod Form]</local-name>
-            <parent-name>[drugs_pct_changes_monthly.csv]</parent-name>
-            <remote-alias>Prod Form</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Pivot Field Names</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Pivot Field Names]</local-name>
-            <parent-name>[Pivot]</parent-name>
-            <remote-alias>Pivot Field Names</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Pivot Field Values</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Pivot Field Values]</local-name>
-            <parent-name>[Pivot]</parent-name>
-            <remote-alias>Pivot Field Values</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Date' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
-      <column caption='Percent Change' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
-      <_.fcp.ObjectModelTableType.true...column caption='drugs_pct_changes_monthly.csv' datatype='table' name='[__tableau_internal_object_id__].[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]' role='measure' type='quantitative' />
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='drugs_pct_changes_monthly.csv' id='drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF'>
-            <properties context=''>
-              <relation name='Pivot' type='pivot'>
-                <columns>
-                  <column datatype='string' name='Pivot Field Names' />
-                  <column datatype='real' name='Pivot Field Values' />
-                </columns>
-                <tag name='Pivot Field Names'>
-                  <value name='[2017 02]' />
-                  <value name='[2017 03]' />
-                  <value name='[2017 04]' />
-                  <value name='[2017 05]' />
-                  <value name='[2017 06]' />
-                  <value name='[2017 07]' />
-                  <value name='[2017 08]' />
-                  <value name='[2017 09]' />
-                  <value name='[2017 10]' />
-                  <value name='[2017 11]' />
-                  <value name='[2017 12]' />
-                  <value name='[2018 01]' />
-                  <value name='[2018 02]' />
-                  <value name='[2018 03]' />
-                  <value name='[2018 04]' />
-                  <value name='[2018 05]' />
-                  <value name='[2018 06]' />
-                  <value name='[2018 07]' />
-                  <value name='[2018 08]' />
-                  <value name='[2018 09]' />
-                  <value name='[2018 10]' />
-                  <value name='[2018 11]' />
-                  <value name='[2018 12]' />
-                  <value name='[2019 01]' />
-                  <value name='[2019 02]' />
-                  <value name='[2019 03]' />
-                  <value name='[2019 04]' />
-                  <value name='[2019 05]' />
-                  <value name='[2019 06]' />
-                  <value name='[2019 07]' />
-                  <value name='[2019 08]' />
-                  <value name='[2019 09]' />
-                  <value name='[2019 10]' />
-                  <value name='[2019 11]' />
-                  <value name='[2019 12]' />
-                  <value name='[2020 01]' />
-                  <value name='[2020 02]' />
-                  <value name='[2020 03]' />
-                  <value name='[2020 04]' />
-                  <value name='[2020 05]' />
-                  <value name='[2020 06]' />
-                  <value name='[2020 07]' />
-                </tag>
-                <groups>
-                  <group name='Pivot Field Values'>
-                    <field name='[drugs_pct_changes_monthly.csv].[2017_02]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2017_03]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2017_04]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2017_05]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2017_06]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2017_07]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2017_08]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2017_09]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2017_10]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2017_11]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2017_12]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2018_01]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2018_02]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2018_03]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2018_04]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2018_05]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2018_06]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2018_07]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2018_08]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2018_09]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2018_10]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2018_11]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2018_12]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2019_01]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2019_02]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2019_03]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2019_04]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2019_05]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2019_06]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2019_07]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2019_08]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2019_09]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2019_10]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2019_11]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2019_12]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2020_01]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2020_02]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2020_03]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2020_04]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2020_05]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2020_06]' />
-                    <field name='[drugs_pct_changes_monthly.csv].[2020_07]' />
-                  </group>
-                </groups>
-                <relation connection='textscan.0ga3ha10llorfl135ty6w06qhobo' name='drugs_pct_changes_monthly.csv' table='[drugs_pct_changes_monthly#csv]' type='table'>
-                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-                    <column datatype='integer' name='NDC' ordinal='0' />
-                    <column datatype='string' name='Product' ordinal='1' />
-                    <column datatype='string' name='Major Class' ordinal='2' />
-                    <column datatype='string' name='Acute/Chronic' ordinal='3' />
-                    <column datatype='string' name='Prod Form' ordinal='4' />
-                    <column datatype='real' name='2017_02' ordinal='5' />
-                    <column datatype='real' name='2017_03' ordinal='6' />
-                    <column datatype='real' name='2017_04' ordinal='7' />
-                    <column datatype='real' name='2017_05' ordinal='8' />
-                    <column datatype='real' name='2017_06' ordinal='9' />
-                    <column datatype='real' name='2017_07' ordinal='10' />
-                    <column datatype='real' name='2017_08' ordinal='11' />
-                    <column datatype='real' name='2017_09' ordinal='12' />
-                    <column datatype='real' name='2017_10' ordinal='13' />
-                    <column datatype='real' name='2017_11' ordinal='14' />
-                    <column datatype='real' name='2017_12' ordinal='15' />
-                    <column datatype='real' name='2018_01' ordinal='16' />
-                    <column datatype='real' name='2018_02' ordinal='17' />
-                    <column datatype='real' name='2018_03' ordinal='18' />
-                    <column datatype='real' name='2018_04' ordinal='19' />
-                    <column datatype='real' name='2018_05' ordinal='20' />
-                    <column datatype='real' name='2018_06' ordinal='21' />
-                    <column datatype='real' name='2018_07' ordinal='22' />
-                    <column datatype='real' name='2018_08' ordinal='23' />
-                    <column datatype='real' name='2018_09' ordinal='24' />
-                    <column datatype='real' name='2018_10' ordinal='25' />
-                    <column datatype='real' name='2018_11' ordinal='26' />
-                    <column datatype='real' name='2018_12' ordinal='27' />
-                    <column datatype='real' name='2019_01' ordinal='28' />
-                    <column datatype='real' name='2019_02' ordinal='29' />
-                    <column datatype='real' name='2019_03' ordinal='30' />
-                    <column datatype='real' name='2019_04' ordinal='31' />
-                    <column datatype='real' name='2019_05' ordinal='32' />
-                    <column datatype='real' name='2019_06' ordinal='33' />
-                    <column datatype='real' name='2019_07' ordinal='34' />
-                    <column datatype='real' name='2019_08' ordinal='35' />
-                    <column datatype='real' name='2019_09' ordinal='36' />
-                    <column datatype='real' name='2019_10' ordinal='37' />
-                    <column datatype='real' name='2019_11' ordinal='38' />
-                    <column datatype='real' name='2019_12' ordinal='39' />
-                    <column datatype='real' name='2020_01' ordinal='40' />
-                    <column datatype='real' name='2020_02' ordinal='41' />
-                    <column datatype='real' name='2020_03' ordinal='42' />
-                    <column datatype='real' name='2020_04' ordinal='43' />
-                    <column datatype='real' name='2020_05' ordinal='44' />
-                    <column datatype='real' name='2020_06' ordinal='45' />
-                    <column datatype='real' name='2020_07' ordinal='46' />
-                  </columns>
-                </relation>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
     <datasource caption='drugs_bool_changes_monthly' inline='true' name='federated.1x6rjtz0byi1qn1b1n33z03l3zt1' version='18.1'>
       <connection class='federated'>
         <named-connections>
           <named-connection caption='drugs_bool_changes_monthly' name='textscan.10wz6x1014o1ce19qlyue1ve68t9'>
-            <connection class='textscan' directory='/Users/paul/Documents/Nephron/CBS_Nephron/Data' filename='drugs_bool_changes_monthly.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/paul/Documents/Nephron/CBS_Nephron/Processed_Data' filename='drugs_bool_changes_monthly.csv' password='' server='' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
@@ -1175,6 +595,586 @@
         </objects>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
+    <datasource caption='drugs_pct_changes_monthly' inline='true' name='federated.0da2t4x1uea2n812vmioa0lws7m3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='drugs_pct_changes_monthly' name='textscan.0ga3ha10llorfl135ty6w06qhobo'>
+            <connection class='textscan' directory='/Users/paul/Documents/Nephron/CBS_Nephron/Processed_Data' filename='drugs_pct_changes_monthly.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[2017 02]' />
+            <value name='[2017 03]' />
+            <value name='[2017 04]' />
+            <value name='[2017 05]' />
+            <value name='[2017 06]' />
+            <value name='[2017 07]' />
+            <value name='[2017 08]' />
+            <value name='[2017 09]' />
+            <value name='[2017 10]' />
+            <value name='[2017 11]' />
+            <value name='[2017 12]' />
+            <value name='[2018 01]' />
+            <value name='[2018 02]' />
+            <value name='[2018 03]' />
+            <value name='[2018 04]' />
+            <value name='[2018 05]' />
+            <value name='[2018 06]' />
+            <value name='[2018 07]' />
+            <value name='[2018 08]' />
+            <value name='[2018 09]' />
+            <value name='[2018 10]' />
+            <value name='[2018 11]' />
+            <value name='[2018 12]' />
+            <value name='[2019 01]' />
+            <value name='[2019 02]' />
+            <value name='[2019 03]' />
+            <value name='[2019 04]' />
+            <value name='[2019 05]' />
+            <value name='[2019 06]' />
+            <value name='[2019 07]' />
+            <value name='[2019 08]' />
+            <value name='[2019 09]' />
+            <value name='[2019 10]' />
+            <value name='[2019 11]' />
+            <value name='[2019 12]' />
+            <value name='[2020 01]' />
+            <value name='[2020 02]' />
+            <value name='[2020 03]' />
+            <value name='[2020 04]' />
+            <value name='[2020 05]' />
+            <value name='[2020 06]' />
+            <value name='[2020 07]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[drugs_pct_changes_monthly.csv].[2017_02]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_03]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_04]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_05]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_06]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_07]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_08]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_09]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_10]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_11]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_12]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_01]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_02]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_03]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_04]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_05]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_06]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_07]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_08]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_09]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_10]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_11]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_12]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_01]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_02]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_03]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_04]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_05]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_06]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_07]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_08]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_09]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_10]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_11]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_12]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2020_01]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2020_02]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2020_03]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2020_04]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2020_05]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2020_06]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2020_07]' />
+            </group>
+          </groups>
+          <relation connection='textscan.0ga3ha10llorfl135ty6w06qhobo' name='drugs_pct_changes_monthly.csv' table='[drugs_pct_changes_monthly#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='NDC' ordinal='0' />
+              <column datatype='string' name='Product' ordinal='1' />
+              <column datatype='string' name='Major Class' ordinal='2' />
+              <column datatype='string' name='Acute/Chronic' ordinal='3' />
+              <column datatype='string' name='Prod Form' ordinal='4' />
+              <column datatype='real' name='2017_02' ordinal='5' />
+              <column datatype='real' name='2017_03' ordinal='6' />
+              <column datatype='real' name='2017_04' ordinal='7' />
+              <column datatype='real' name='2017_05' ordinal='8' />
+              <column datatype='real' name='2017_06' ordinal='9' />
+              <column datatype='real' name='2017_07' ordinal='10' />
+              <column datatype='real' name='2017_08' ordinal='11' />
+              <column datatype='real' name='2017_09' ordinal='12' />
+              <column datatype='real' name='2017_10' ordinal='13' />
+              <column datatype='real' name='2017_11' ordinal='14' />
+              <column datatype='real' name='2017_12' ordinal='15' />
+              <column datatype='real' name='2018_01' ordinal='16' />
+              <column datatype='real' name='2018_02' ordinal='17' />
+              <column datatype='real' name='2018_03' ordinal='18' />
+              <column datatype='real' name='2018_04' ordinal='19' />
+              <column datatype='real' name='2018_05' ordinal='20' />
+              <column datatype='real' name='2018_06' ordinal='21' />
+              <column datatype='real' name='2018_07' ordinal='22' />
+              <column datatype='real' name='2018_08' ordinal='23' />
+              <column datatype='real' name='2018_09' ordinal='24' />
+              <column datatype='real' name='2018_10' ordinal='25' />
+              <column datatype='real' name='2018_11' ordinal='26' />
+              <column datatype='real' name='2018_12' ordinal='27' />
+              <column datatype='real' name='2019_01' ordinal='28' />
+              <column datatype='real' name='2019_02' ordinal='29' />
+              <column datatype='real' name='2019_03' ordinal='30' />
+              <column datatype='real' name='2019_04' ordinal='31' />
+              <column datatype='real' name='2019_05' ordinal='32' />
+              <column datatype='real' name='2019_06' ordinal='33' />
+              <column datatype='real' name='2019_07' ordinal='34' />
+              <column datatype='real' name='2019_08' ordinal='35' />
+              <column datatype='real' name='2019_09' ordinal='36' />
+              <column datatype='real' name='2019_10' ordinal='37' />
+              <column datatype='real' name='2019_11' ordinal='38' />
+              <column datatype='real' name='2019_12' ordinal='39' />
+              <column datatype='real' name='2020_01' ordinal='40' />
+              <column datatype='real' name='2020_02' ordinal='41' />
+              <column datatype='real' name='2020_03' ordinal='42' />
+              <column datatype='real' name='2020_04' ordinal='43' />
+              <column datatype='real' name='2020_05' ordinal='44' />
+              <column datatype='real' name='2020_06' ordinal='45' />
+              <column datatype='real' name='2020_07' ordinal='46' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[2017 02]' />
+            <value name='[2017 03]' />
+            <value name='[2017 04]' />
+            <value name='[2017 05]' />
+            <value name='[2017 06]' />
+            <value name='[2017 07]' />
+            <value name='[2017 08]' />
+            <value name='[2017 09]' />
+            <value name='[2017 10]' />
+            <value name='[2017 11]' />
+            <value name='[2017 12]' />
+            <value name='[2018 01]' />
+            <value name='[2018 02]' />
+            <value name='[2018 03]' />
+            <value name='[2018 04]' />
+            <value name='[2018 05]' />
+            <value name='[2018 06]' />
+            <value name='[2018 07]' />
+            <value name='[2018 08]' />
+            <value name='[2018 09]' />
+            <value name='[2018 10]' />
+            <value name='[2018 11]' />
+            <value name='[2018 12]' />
+            <value name='[2019 01]' />
+            <value name='[2019 02]' />
+            <value name='[2019 03]' />
+            <value name='[2019 04]' />
+            <value name='[2019 05]' />
+            <value name='[2019 06]' />
+            <value name='[2019 07]' />
+            <value name='[2019 08]' />
+            <value name='[2019 09]' />
+            <value name='[2019 10]' />
+            <value name='[2019 11]' />
+            <value name='[2019 12]' />
+            <value name='[2020 01]' />
+            <value name='[2020 02]' />
+            <value name='[2020 03]' />
+            <value name='[2020 04]' />
+            <value name='[2020 05]' />
+            <value name='[2020 06]' />
+            <value name='[2020 07]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[drugs_pct_changes_monthly.csv].[2017_02]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_03]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_04]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_05]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_06]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_07]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_08]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_09]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_10]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_11]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2017_12]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_01]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_02]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_03]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_04]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_05]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_06]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_07]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_08]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_09]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_10]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_11]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2018_12]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_01]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_02]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_03]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_04]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_05]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_06]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_07]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_08]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_09]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_10]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_11]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2019_12]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2020_01]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2020_02]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2020_03]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2020_04]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2020_05]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2020_06]' />
+              <field name='[drugs_pct_changes_monthly.csv].[2020_07]' />
+            </group>
+          </groups>
+          <relation connection='textscan.0ga3ha10llorfl135ty6w06qhobo' name='drugs_pct_changes_monthly.csv' table='[drugs_pct_changes_monthly#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='NDC' ordinal='0' />
+              <column datatype='string' name='Product' ordinal='1' />
+              <column datatype='string' name='Major Class' ordinal='2' />
+              <column datatype='string' name='Acute/Chronic' ordinal='3' />
+              <column datatype='string' name='Prod Form' ordinal='4' />
+              <column datatype='real' name='2017_02' ordinal='5' />
+              <column datatype='real' name='2017_03' ordinal='6' />
+              <column datatype='real' name='2017_04' ordinal='7' />
+              <column datatype='real' name='2017_05' ordinal='8' />
+              <column datatype='real' name='2017_06' ordinal='9' />
+              <column datatype='real' name='2017_07' ordinal='10' />
+              <column datatype='real' name='2017_08' ordinal='11' />
+              <column datatype='real' name='2017_09' ordinal='12' />
+              <column datatype='real' name='2017_10' ordinal='13' />
+              <column datatype='real' name='2017_11' ordinal='14' />
+              <column datatype='real' name='2017_12' ordinal='15' />
+              <column datatype='real' name='2018_01' ordinal='16' />
+              <column datatype='real' name='2018_02' ordinal='17' />
+              <column datatype='real' name='2018_03' ordinal='18' />
+              <column datatype='real' name='2018_04' ordinal='19' />
+              <column datatype='real' name='2018_05' ordinal='20' />
+              <column datatype='real' name='2018_06' ordinal='21' />
+              <column datatype='real' name='2018_07' ordinal='22' />
+              <column datatype='real' name='2018_08' ordinal='23' />
+              <column datatype='real' name='2018_09' ordinal='24' />
+              <column datatype='real' name='2018_10' ordinal='25' />
+              <column datatype='real' name='2018_11' ordinal='26' />
+              <column datatype='real' name='2018_12' ordinal='27' />
+              <column datatype='real' name='2019_01' ordinal='28' />
+              <column datatype='real' name='2019_02' ordinal='29' />
+              <column datatype='real' name='2019_03' ordinal='30' />
+              <column datatype='real' name='2019_04' ordinal='31' />
+              <column datatype='real' name='2019_05' ordinal='32' />
+              <column datatype='real' name='2019_06' ordinal='33' />
+              <column datatype='real' name='2019_07' ordinal='34' />
+              <column datatype='real' name='2019_08' ordinal='35' />
+              <column datatype='real' name='2019_09' ordinal='36' />
+              <column datatype='real' name='2019_10' ordinal='37' />
+              <column datatype='real' name='2019_11' ordinal='38' />
+              <column datatype='real' name='2019_12' ordinal='39' />
+              <column datatype='real' name='2020_01' ordinal='40' />
+              <column datatype='real' name='2020_02' ordinal='41' />
+              <column datatype='real' name='2020_03' ordinal='42' />
+              <column datatype='real' name='2020_04' ordinal='43' />
+              <column datatype='real' name='2020_05' ordinal='44' />
+              <column datatype='real' name='2020_06' ordinal='45' />
+              <column datatype='real' name='2020_07' ordinal='46' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[drugs_pct_changes_monthly.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NDC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NDC]</local-name>
+            <parent-name>[drugs_pct_changes_monthly.csv]</parent-name>
+            <remote-alias>NDC</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Product]</local-name>
+            <parent-name>[drugs_pct_changes_monthly.csv]</parent-name>
+            <remote-alias>Product</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Major Class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Major Class]</local-name>
+            <parent-name>[drugs_pct_changes_monthly.csv]</parent-name>
+            <remote-alias>Major Class</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Acute/Chronic</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Acute/Chronic]</local-name>
+            <parent-name>[drugs_pct_changes_monthly.csv]</parent-name>
+            <remote-alias>Acute/Chronic</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prod Form</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Prod Form]</local-name>
+            <parent-name>[drugs_pct_changes_monthly.csv]</parent-name>
+            <remote-alias>Prod Form</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Date' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='Percent Change' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='drugs_pct_changes_monthly.csv' datatype='table' name='[__tableau_internal_object_id__].[drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='drugs_pct_changes_monthly.csv' id='drugs_pct_changes_monthly.csv_ECE5E032809E45FF8F073A94A8B5E5DF'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='real' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[2017 02]' />
+                  <value name='[2017 03]' />
+                  <value name='[2017 04]' />
+                  <value name='[2017 05]' />
+                  <value name='[2017 06]' />
+                  <value name='[2017 07]' />
+                  <value name='[2017 08]' />
+                  <value name='[2017 09]' />
+                  <value name='[2017 10]' />
+                  <value name='[2017 11]' />
+                  <value name='[2017 12]' />
+                  <value name='[2018 01]' />
+                  <value name='[2018 02]' />
+                  <value name='[2018 03]' />
+                  <value name='[2018 04]' />
+                  <value name='[2018 05]' />
+                  <value name='[2018 06]' />
+                  <value name='[2018 07]' />
+                  <value name='[2018 08]' />
+                  <value name='[2018 09]' />
+                  <value name='[2018 10]' />
+                  <value name='[2018 11]' />
+                  <value name='[2018 12]' />
+                  <value name='[2019 01]' />
+                  <value name='[2019 02]' />
+                  <value name='[2019 03]' />
+                  <value name='[2019 04]' />
+                  <value name='[2019 05]' />
+                  <value name='[2019 06]' />
+                  <value name='[2019 07]' />
+                  <value name='[2019 08]' />
+                  <value name='[2019 09]' />
+                  <value name='[2019 10]' />
+                  <value name='[2019 11]' />
+                  <value name='[2019 12]' />
+                  <value name='[2020 01]' />
+                  <value name='[2020 02]' />
+                  <value name='[2020 03]' />
+                  <value name='[2020 04]' />
+                  <value name='[2020 05]' />
+                  <value name='[2020 06]' />
+                  <value name='[2020 07]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[drugs_pct_changes_monthly.csv].[2017_02]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2017_03]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2017_04]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2017_05]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2017_06]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2017_07]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2017_08]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2017_09]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2017_10]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2017_11]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2017_12]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2018_01]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2018_02]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2018_03]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2018_04]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2018_05]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2018_06]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2018_07]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2018_08]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2018_09]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2018_10]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2018_11]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2018_12]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2019_01]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2019_02]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2019_03]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2019_04]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2019_05]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2019_06]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2019_07]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2019_08]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2019_09]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2019_10]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2019_11]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2019_12]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2020_01]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2020_02]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2020_03]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2020_04]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2020_05]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2020_06]' />
+                    <field name='[drugs_pct_changes_monthly.csv].[2020_07]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.0ga3ha10llorfl135ty6w06qhobo' name='drugs_pct_changes_monthly.csv' table='[drugs_pct_changes_monthly#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='integer' name='NDC' ordinal='0' />
+                    <column datatype='string' name='Product' ordinal='1' />
+                    <column datatype='string' name='Major Class' ordinal='2' />
+                    <column datatype='string' name='Acute/Chronic' ordinal='3' />
+                    <column datatype='string' name='Prod Form' ordinal='4' />
+                    <column datatype='real' name='2017_02' ordinal='5' />
+                    <column datatype='real' name='2017_03' ordinal='6' />
+                    <column datatype='real' name='2017_04' ordinal='7' />
+                    <column datatype='real' name='2017_05' ordinal='8' />
+                    <column datatype='real' name='2017_06' ordinal='9' />
+                    <column datatype='real' name='2017_07' ordinal='10' />
+                    <column datatype='real' name='2017_08' ordinal='11' />
+                    <column datatype='real' name='2017_09' ordinal='12' />
+                    <column datatype='real' name='2017_10' ordinal='13' />
+                    <column datatype='real' name='2017_11' ordinal='14' />
+                    <column datatype='real' name='2017_12' ordinal='15' />
+                    <column datatype='real' name='2018_01' ordinal='16' />
+                    <column datatype='real' name='2018_02' ordinal='17' />
+                    <column datatype='real' name='2018_03' ordinal='18' />
+                    <column datatype='real' name='2018_04' ordinal='19' />
+                    <column datatype='real' name='2018_05' ordinal='20' />
+                    <column datatype='real' name='2018_06' ordinal='21' />
+                    <column datatype='real' name='2018_07' ordinal='22' />
+                    <column datatype='real' name='2018_08' ordinal='23' />
+                    <column datatype='real' name='2018_09' ordinal='24' />
+                    <column datatype='real' name='2018_10' ordinal='25' />
+                    <column datatype='real' name='2018_11' ordinal='26' />
+                    <column datatype='real' name='2018_12' ordinal='27' />
+                    <column datatype='real' name='2019_01' ordinal='28' />
+                    <column datatype='real' name='2019_02' ordinal='29' />
+                    <column datatype='real' name='2019_03' ordinal='30' />
+                    <column datatype='real' name='2019_04' ordinal='31' />
+                    <column datatype='real' name='2019_05' ordinal='32' />
+                    <column datatype='real' name='2019_06' ordinal='33' />
+                    <column datatype='real' name='2019_07' ordinal='34' />
+                    <column datatype='real' name='2019_08' ordinal='35' />
+                    <column datatype='real' name='2019_09' ordinal='36' />
+                    <column datatype='real' name='2019_10' ordinal='37' />
+                    <column datatype='real' name='2019_11' ordinal='38' />
+                    <column datatype='real' name='2019_12' ordinal='39' />
+                    <column datatype='real' name='2020_01' ordinal='40' />
+                    <column datatype='real' name='2020_02' ordinal='41' />
+                    <column datatype='real' name='2020_03' ordinal='42' />
+                    <column datatype='real' name='2020_04' ordinal='43' />
+                    <column datatype='real' name='2020_05' ordinal='44' />
+                    <column datatype='real' name='2020_06' ordinal='45' />
+                    <column datatype='real' name='2020_07' ordinal='46' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
   </datasources>
   <worksheets>
     <worksheet name='Avg Pct Change month'>
@@ -1300,7 +1300,7 @@
     </worksheet>
   </worksheets>
   <windows source-height='51'>
-    <window class='worksheet' name='Avg Pct Change month'>
+    <window class='worksheet' maximized='true' name='Avg Pct Change month'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1337,7 +1337,7 @@
       </viewpoint>
       <simple-id uuid='{1CB52E55-2D3F-4DCB-A7B3-D58D380C47FE}' />
     </window>
-    <window class='worksheet' maximized='true' name='Nb Drugs change Month'>
+    <window class='worksheet' name='Nb Drugs change Month'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1401,133 +1401,419 @@
   <thumbnails>
     <thumbnail height='384' name='Avg Pct Change month' width='384'>
       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
-      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
-      JvPNAwAAAABJRU5ErkJggg==
+      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
+      PvwAAAAASUVORK5CYII=
     </thumbnail>
     <thumbnail height='384' name='Nb Drugs change Month' width='384'>
       iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
