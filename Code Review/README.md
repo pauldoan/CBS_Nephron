@@ -1,4 +1,4 @@
-# ANA - Nephron research
+# ANA - Nephron research project
 
 Please find in this folder the code developed by Nephron team for ANA.
 Nephron Team
