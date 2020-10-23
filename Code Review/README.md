@@ -10,6 +10,7 @@ Nephron Team
 
 Description of the notebooks:
 - 1 - Data preprocessing: the code for preprocessing, reshaping and cleaning the data provided by Nephron
+- 1.2 - price_changes_yearoveryear: Another preprocessing part computing year to year change (ongoing research)
 - 2 - Correlations: the code used for computing correlations between the different classes of drugs
 - 3 - Clustering: the code for clustering drugs together or classes together
 - 4 - Predictive_classifier: the research to build a classifier to predict price changes
